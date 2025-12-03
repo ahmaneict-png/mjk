@@ -14,9 +14,11 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 py-4 md:py-6 max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
-              <span className="inline-block px-3 py-1 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wider bg-blue-100 text-blue-800 mb-2">
-                तालुकास्तरीय विज्ञान प्रदर्शन -२०२५-२६ (कराड तालुका )
-              </span>
+              <div className="mb-2">
+                <span className="text-xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 drop-shadow-sm">
+                  तालुकास्तरीय विज्ञान प्रदर्शन - २०२५-२६ (कराड तालुका)
+                </span>
+              </div>
               <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-1 flex items-center justify-center md:justify-start gap-3">
                 <CloudSun className="text-blue-500" size={32} />
                 वातावरण निरीक्षण यंत्र
